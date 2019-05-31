@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CEF05422A151BA00FFC1AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF05322A151BA00FFC1AC /* AppDelegate.swift */; };
+		10CEF05622A151BA00FFC1AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF05522A151BA00FFC1AC /* ViewController.swift */; };
+		10CEF05922A151BA00FFC1AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CEF05722A151BA00FFC1AC /* Main.storyboard */; };
+		10CEF05C22A151BA00FFC1AC /* DemoLumiq.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF05A22A151BA00FFC1AC /* DemoLumiq.xcdatamodeld */; };
+		10CEF05E22A151BC00FFC1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CEF05D22A151BC00FFC1AC /* Assets.xcassets */; };
+		10CEF06122A151BC00FFC1AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CEF05F22A151BC00FFC1AC /* LaunchScreen.storyboard */; };
+		10CEF06C22A151BC00FFC1AC /* DemoLumiqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF06B22A151BC00FFC1AC /* DemoLumiqTests.swift */; };
+		10CEF07722A151BC00FFC1AC /* DemoLumiqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF07622A151BC00FFC1AC /* DemoLumiqUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10CEF06822A151BC00FFC1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10CEF04822A151BA00FFC1AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CEF04F22A151BA00FFC1AC;
+			remoteInfo = DemoLumiq;
+		};
+		10CEF07322A151BC00FFC1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10CEF04822A151BA00FFC1AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CEF04F22A151BA00FFC1AC;
+			remoteInfo = DemoLumiq;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10CEF05022A151BA00FFC1AC /* DemoLumiq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLumiq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CEF05322A151BA00FFC1AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10CEF05522A151BA00FFC1AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10CEF05822A151BA00FFC1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10CEF05B22A151BA00FFC1AC /* DemoLumiq.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoLumiq.xcdatamodel; sourceTree = "<group>"; };
+		10CEF05D22A151BC00FFC1AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10CEF06022A151BC00FFC1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10CEF06222A151BC00FFC1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CEF06722A151BC00FFC1AC /* DemoLumiqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoLumiqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CEF06B22A151BC00FFC1AC /* DemoLumiqTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLumiqTests.swift; sourceTree = "<group>"; };
+		10CEF06D22A151BC00FFC1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CEF07222A151BC00FFC1AC /* DemoLumiqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoLumiqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CEF07622A151BC00FFC1AC /* DemoLumiqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLumiqUITests.swift; sourceTree = "<group>"; };
+		10CEF07822A151BC00FFC1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10CEF04D22A151BA00FFC1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CEF06422A151BC00FFC1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CEF06F22A151BC00FFC1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10CEF04722A151BA00FFC1AC = {
+			isa = PBXGroup;
+			children = (
+				10CEF05222A151BA00FFC1AC /* DemoLumiq */,
+				10CEF06A22A151BC00FFC1AC /* DemoLumiqTests */,
+				10CEF07522A151BC00FFC1AC /* DemoLumiqUITests */,
+				10CEF05122A151BA00FFC1AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10CEF05122A151BA00FFC1AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10CEF05022A151BA00FFC1AC /* DemoLumiq.app */,
+				10CEF06722A151BC00FFC1AC /* DemoLumiqTests.xctest */,
+				10CEF07222A151BC00FFC1AC /* DemoLumiqUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10CEF05222A151BA00FFC1AC /* DemoLumiq */ = {
+			isa = PBXGroup;
+			children = (
+				10CEF05322A151BA00FFC1AC /* AppDelegate.swift */,
+				10CEF05522A151BA00FFC1AC /* ViewController.swift */,
+				10CEF05722A151BA00FFC1AC /* Main.storyboard */,
+				10CEF05D22A151BC00FFC1AC /* Assets.xcassets */,
+				10CEF05F22A151BC00FFC1AC /* LaunchScreen.storyboard */,
+				10CEF06222A151BC00FFC1AC /* Info.plist */,
+				10CEF05A22A151BA00FFC1AC /* DemoLumiq.xcdatamodeld */,
+			);
+			path = DemoLumiq;
+			sourceTree = "<group>";
+		};
+		10CEF06A22A151BC00FFC1AC /* DemoLumiqTests */ = {
+			isa = PBXGroup;
+			children = (
+				10CEF06B22A151BC00FFC1AC /* DemoLumiqTests.swift */,
+				10CEF06D22A151BC00FFC1AC /* Info.plist */,
+			);
+			path = DemoLumiqTests;
+			sourceTree = "<group>";
+		};
+		10CEF07522A151BC00FFC1AC /* DemoLumiqUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10CEF07622A151BC00FFC1AC /* DemoLumiqUITests.swift */,
+				10CEF07822A151BC00FFC1AC /* Info.plist */,
+			);
+			path = DemoLumiqUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10CEF04F22A151BA00FFC1AC /* DemoLumiq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CEF07B22A151BC00FFC1AC /* Build configuration list for PBXNativeTarget "DemoLumiq" */;
+			buildPhases = (
+				10CEF04C22A151BA00FFC1AC /* Sources */,
+				10CEF04D22A151BA00FFC1AC /* Frameworks */,
+				10CEF04E22A151BA00FFC1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoLumiq;
+			productName = DemoLumiq;
+			productReference = 10CEF05022A151BA00FFC1AC /* DemoLumiq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10CEF06622A151BC00FFC1AC /* DemoLumiqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CEF07E22A151BC00FFC1AC /* Build configuration list for PBXNativeTarget "DemoLumiqTests" */;
+			buildPhases = (
+				10CEF06322A151BC00FFC1AC /* Sources */,
+				10CEF06422A151BC00FFC1AC /* Frameworks */,
+				10CEF06522A151BC00FFC1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CEF06922A151BC00FFC1AC /* PBXTargetDependency */,
+			);
+			name = DemoLumiqTests;
+			productName = DemoLumiqTests;
+			productReference = 10CEF06722A151BC00FFC1AC /* DemoLumiqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10CEF07122A151BC00FFC1AC /* DemoLumiqUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CEF08122A151BC00FFC1AC /* Build configuration list for PBXNativeTarget "DemoLumiqUITests" */;
+			buildPhases = (
+				10CEF06E22A151BC00FFC1AC /* Sources */,
+				10CEF06F22A151BC00FFC1AC /* Frameworks */,
+				10CEF07022A151BC00FFC1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CEF07422A151BC00FFC1AC /* PBXTargetDependency */,
+			);
+			name = DemoLumiqUITests;
+			productName = DemoLumiqUITests;
+			productReference = 10CEF07222A151BC00FFC1AC /* DemoLumiqUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10CEF04822A151BA00FFC1AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ashutosh;
+				TargetAttributes = {
+					10CEF04F22A151BA00FFC1AC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					10CEF06622A151BC00FFC1AC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 10CEF04F22A151BA00FFC1AC;
+					};
+					10CEF07122A151BC00FFC1AC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 10CEF04F22A151BA00FFC1AC;
+					};
+				};
+			};
+			buildConfigurationList = 10CEF04B22A151BA00FFC1AC /* Build configuration list for PBXProject "DemoLumiq" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10CEF04722A151BA00FFC1AC;
+			productRefGroup = 10CEF05122A151BA00FFC1AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CEF04F22A151BA00FFC1AC /* DemoLumiq */,
+				10CEF06622A151BC00FFC1AC /* DemoLumiqTests */,
+				10CEF07122A151BC00FFC1AC /* DemoLumiqUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10CEF04E22A151BA00FFC1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEF06122A151BC00FFC1AC /* LaunchScreen.storyboard in Resources */,
+				10CEF05E22A151BC00FFC1AC /* Assets.xcassets in Resources */,
+				10CEF05922A151BA00FFC1AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CEF06522A151BC00FFC1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CEF07022A151BC00FFC1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10CEF04C22A151BA00FFC1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEF05622A151BA00FFC1AC /* ViewController.swift in Sources */,
+				10CEF05C22A151BA00FFC1AC /* DemoLumiq.xcdatamodeld in Sources */,
+				10CEF05422A151BA00FFC1AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CEF06322A151BC00FFC1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEF06C22A151BC00FFC1AC /* DemoLumiqTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CEF06E22A151BC00FFC1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEF07722A151BC00FFC1AC /* DemoLumiqUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10CEF06922A151BC00FFC1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CEF04F22A151BA00FFC1AC /* DemoLumiq */;
+			targetProxy = 10CEF06822A151BC00FFC1AC /* PBXContainerItemProxy */;
+		};
+		10CEF07422A151BC00FFC1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CEF04F22A151BA00FFC1AC /* DemoLumiq */;
+			targetProxy = 10CEF07322A151BC00FFC1AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10CEF05722A151BA00FFC1AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10CEF05822A151BA00FFC1AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10CEF05F22A151BC00FFC1AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10CEF06022A151BC00FFC1AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10CEF07922A151BC00FFC1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10CEF07A22A151BC00FFC1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10CEF07C22A151BC00FFC1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoLumiq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.DemoLumiq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10CEF07D22A151BC00FFC1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoLumiq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.DemoLumiq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10CEF07F22A151BC00FFC1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoLumiqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.DemoLumiqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoLumiq.app/DemoLumiq";
+			};
+			name = Debug;
+		};
+		10CEF08022A151BC00FFC1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoLumiqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.DemoLumiqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoLumiq.app/DemoLumiq";
+			};
+			name = Release;
+		};
+		10CEF08222A151BC00FFC1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoLumiqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.DemoLumiqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoLumiq;
+			};
+			name = Debug;
+		};
+		10CEF08322A151BC00FFC1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoLumiqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.DemoLumiqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoLumiq;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10CEF04B22A151BA00FFC1AC /* Build configuration list for PBXProject "DemoLumiq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CEF07922A151BC00FFC1AC /* Debug */,
+				10CEF07A22A151BC00FFC1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CEF07B22A151BC00FFC1AC /* Build configuration list for PBXNativeTarget "DemoLumiq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CEF07C22A151BC00FFC1AC /* Debug */,
+				10CEF07D22A151BC00FFC1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CEF07E22A151BC00FFC1AC /* Build configuration list for PBXNativeTarget "DemoLumiqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CEF07F22A151BC00FFC1AC /* Debug */,
+				10CEF08022A151BC00FFC1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CEF08122A151BC00FFC1AC /* Build configuration list for PBXNativeTarget "DemoLumiqUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CEF08222A151BC00FFC1AC /* Debug */,
+				10CEF08322A151BC00FFC1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10CEF05A22A151BA00FFC1AC /* DemoLumiq.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10CEF05B22A151BA00FFC1AC /* DemoLumiq.xcdatamodel */,
+			);
+			currentVersion = 10CEF05B22A151BA00FFC1AC /* DemoLumiq.xcdatamodel */;
+			path = DemoLumiq.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10CEF04822A151BA00FFC1AC /* Project object */;
+}
