@@ -15,6 +15,11 @@
 		10CEF06122A151BC00FFC1AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CEF05F22A151BC00FFC1AC /* LaunchScreen.storyboard */; };
 		10CEF06C22A151BC00FFC1AC /* DemoLumiqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF06B22A151BC00FFC1AC /* DemoLumiqTests.swift */; };
 		10CEF07722A151BC00FFC1AC /* DemoLumiqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF07622A151BC00FFC1AC /* DemoLumiqUITests.swift */; };
+		10CEF08522A1522200FFC1AC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF08422A1522200FFC1AC /* SignInViewController.swift */; };
+		10CEF08722A1524900FFC1AC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF08622A1524900FFC1AC /* MainViewController.swift */; };
+		10CEF08A22A1574B00FFC1AC /* MainDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF08822A1574B00FFC1AC /* MainDataTableViewCell.swift */; };
+		10CEF08B22A1574B00FFC1AC /* MainDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10CEF08922A1574B00FFC1AC /* MainDataTableViewCell.xib */; };
+		10CEF08D22A24EC900FFC1AC /* AppInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF08C22A24EC900FFC1AC /* AppInitializer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		10CEF07222A151BC00FFC1AC /* DemoLumiqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoLumiqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10CEF07622A151BC00FFC1AC /* DemoLumiqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLumiqUITests.swift; sourceTree = "<group>"; };
 		10CEF07822A151BC00FFC1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CEF08422A1522200FFC1AC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		10CEF08622A1524900FFC1AC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		10CEF08822A1574B00FFC1AC /* MainDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDataTableViewCell.swift; sourceTree = "<group>"; };
+		10CEF08922A1574B00FFC1AC /* MainDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainDataTableViewCell.xib; sourceTree = "<group>"; };
+		10CEF08C22A24EC900FFC1AC /* AppInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInitializer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,12 @@
 			children = (
 				10CEF05322A151BA00FFC1AC /* AppDelegate.swift */,
 				10CEF05522A151BA00FFC1AC /* ViewController.swift */,
+				10CEF08C22A24EC900FFC1AC /* AppInitializer.swift */,
 				10CEF05722A151BA00FFC1AC /* Main.storyboard */,
+				10CEF08422A1522200FFC1AC /* SignInViewController.swift */,
+				10CEF08622A1524900FFC1AC /* MainViewController.swift */,
+				10CEF08822A1574B00FFC1AC /* MainDataTableViewCell.swift */,
+				10CEF08922A1574B00FFC1AC /* MainDataTableViewCell.xib */,
 				10CEF05D22A151BC00FFC1AC /* Assets.xcassets */,
 				10CEF05F22A151BC00FFC1AC /* LaunchScreen.storyboard */,
 				10CEF06222A151BC00FFC1AC /* Info.plist */,
@@ -232,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CEF08B22A1574B00FFC1AC /* MainDataTableViewCell.xib in Resources */,
 				10CEF06122A151BC00FFC1AC /* LaunchScreen.storyboard in Resources */,
 				10CEF05E22A151BC00FFC1AC /* Assets.xcassets in Resources */,
 				10CEF05922A151BA00FFC1AC /* Main.storyboard in Resources */,
@@ -259,9 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CEF08A22A1574B00FFC1AC /* MainDataTableViewCell.swift in Sources */,
+				10CEF08522A1522200FFC1AC /* SignInViewController.swift in Sources */,
+				10CEF08D22A24EC900FFC1AC /* AppInitializer.swift in Sources */,
 				10CEF05622A151BA00FFC1AC /* ViewController.swift in Sources */,
 				10CEF05C22A151BA00FFC1AC /* DemoLumiq.xcdatamodeld in Sources */,
 				10CEF05422A151BA00FFC1AC /* AppDelegate.swift in Sources */,
+				10CEF08722A1524900FFC1AC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,14 +456,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 67R2H4B5ST;
 				INFOPLIST_FILE = DemoLumiq/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.DemoLumiq;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.demoLumiq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,14 +475,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 67R2H4B5ST;
 				INFOPLIST_FILE = DemoLumiq/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.DemoLumiq;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.demoLumiq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
